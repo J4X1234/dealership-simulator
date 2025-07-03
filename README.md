@@ -1,7 +1,7 @@
-Car Dealership Simulator
+#Car Dealership Simulator
 This is a Python program that simulates a basic car dealership system where users can buy, sell, and paint cars. Each car has a name, color, and price, and the user manages a virtual bank account to perform transactions. The program uses a simple terminal-based menu and supports saving/loading car inventory from .txt files.
 
-Features
+##Features
 View current bank account balance
 
 Buy new cars and apply an automatic markup
@@ -12,7 +12,7 @@ Paint/repaint existing cars
 
 Save and load car inventories using text files
 
-Key Concepts Used
+##Key Concepts Used
 Object-Oriented Programming
 The program uses a separate Car class to encapsulate car attributes and behaviors, like painting.
 
