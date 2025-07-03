@@ -1,14 +1,29 @@
-#
-This Python program simulates a basic car dealership system where users can buy, sell, and paint cars. Each car has its own name, color, and price, and the user manages a virtual bank account to perform transactions. The program features a simple terminal-based menu and supports importing and exporting car inventory data via .txt files.
+Car Dealership Simulator
+This is a Python program that simulates a basic car dealership system where users can buy, sell, and paint cars. Each car has a name, color, and price, and the user manages a virtual bank account to perform transactions. The program uses a simple terminal-based menu and supports saving/loading car inventory from .txt files.
 
-Key Concepts Used:
+Features
+View current bank account balance
 
-Object-Oriented Programming: The Car class (defined separately) encapsulates each vehicle's properties and methods, like painting.
+Buy new cars and apply an automatic markup
 
-File I/O: Supports reading from and writing to text files to persist the bank balance and inventory.
+Sell cars from your inventory
 
-Control Flow & Logic: Uses conditionals, loops, and user input to drive interactive menu behavior.
+Paint/repaint existing cars
 
-Global Variable Management: Tracks and updates the bank account as transactions occur.
+Save and load car inventories using text files
 
-Data Simulation: Implements price markup on newly bought cars and real-time updates on selling or modifying them.
+Key Concepts Used
+Object-Oriented Programming
+The program uses a separate Car class to encapsulate car attributes and behaviors, like painting.
+
+File I/O
+Reads and writes inventory data and bank balance to plain text files for persistent storage.
+
+Control Flow & User Input
+Uses while loops, conditionals, and input() to guide user choices through a menu-driven interface.
+
+Global State Management
+Tracks bank account balance and car inventory throughout the session.
+
+Basic Simulation Logic
+Applies a 20% markup to newly purchased cars and updates values in real-time during sales or edits.
