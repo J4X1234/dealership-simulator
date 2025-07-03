@@ -1,0 +1,16 @@
+25000
+Hyundai Sonata
+red
+14000
+Jeep Cherokee
+yellow
+9000
+Honda Civic
+silver
+22000
+Toyota Camry
+light blue
+18000
+Jeep Cherokee
+black
+16000
